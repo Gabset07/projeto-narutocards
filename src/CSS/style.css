@@ -1,0 +1,640 @@
+body{
+    font-family: 'Merriweather',serif;
+    font-size: 12px;
+    font-weight: 300;
+    background-image: url(../Imagens/vale-do-fim3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+
+.cabecalho{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cabecalho img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+/* Seta */
+
+.btn-seta{
+    margin-top: 200px;
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-seta:hover{
+  background-color: orangered;
+}
+
+.btn-seta img{
+    height: 35px;
+    width: 35px;
+    
+}
+
+.btn-seta.btn-voltar{
+    transform: rotateY(180deg);
+}
+
+/* lista de cards */
+
+.lista-cards{
+    max-width: 100%;
+    position: relative;
+}
+
+.cards-slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cartao{
+    opacity: 0;
+    margin-top: 110px;
+    height: 320px;
+    width: 250px;
+    position: absolute;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.2s ease-in-out;
+    padding: 12px;
+}
+
+.selecionado{
+    z-index: 1;
+    opacity: 1;
+}
+
+
+/* Cartões */
+
+.container-imagem img{
+  width: 240px;
+  height: 260px ;
+  margin-top: -15px;
+}
+
+.fundo-1{
+    background: url(/src/Imagens/Simbolo-do-yondaime.jpg)
+    no-repeat;
+    background-position: 48%;
+    
+}
+
+.cartao .informacao{
+  background-color: #F26E22;
+  font-size: 10px;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+
+.cartao .informacao .vida{
+    background-color:#260101;
+    color: #f1ecff;
+    font-size: 15px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao .descricao {
+    border-radius: 5px;
+    background-color: #D98452;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -28px;
+    width: 250px;
+    right: 12px;
+}
+
+.cartao .descricao .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #260101;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.cartao .descricao .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#7c3f06;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+/* Cartão2 */
+
+.fundo-2{
+    background: url(/src/Imagens/Clan-uchiha-simbolo.png)
+    no-repeat;
+    background-position: 48%;
+    
+}
+
+.cartao2 .informacao2{
+    background-color:#73020C;
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+
+.cartao2 .informacao2 .vida{
+    background-color:#8F9FBF;
+    color: #f1ecff;
+    font-size: 15px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao2 .descricao2 {
+    border-radius: 5px;
+    background-color: #D90416;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -45px;
+    width: 250px;
+    right: 12px;
+}
+
+.cartao2 .descricao2 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #8C0303;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.cartao2 .descricao2 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#8C0303;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+/* Cartão 3 */
+
+.fundo-3{
+    background: url(/src/Imagens/Uzumaki-clan.jpg)
+    no-repeat;
+    background-position: 48%;
+    
+}
+
+.cartao3 .informacao3{
+    background-color: #F2071B;
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+.cartao3 .informacao3 .vida{
+    background-color:#A62103;
+    color: #f1ecff;
+    font-size: 15px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao3 .descricao3 {
+    border-radius: 5px;
+    background-color: #731702;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -45px;
+    width: 250px;
+    right: 12px;
+}
+.cartao3 .descricao3 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #D90404;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.cartao3 .descricao3 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#F2071B;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+/* Cartão4 */
+
+.fundo-4{
+    background: url(/src/Imagens/Assassinato-cla-uchiha.jpg)
+    no-repeat;
+    background-position-y: -15%;
+    background-position-x: 25%;
+    
+}
+
+.cartao4 .informacao4{
+    background-color: #D90B31;
+    font-size: 9px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cartao4 .informacao4 .vida{
+    background-color:#400101;
+    color: #f1ecff;
+    font-size: 12px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao4 .descricao4 {
+    border-radius: 5px;
+    background-color: #8C0303;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -45px;
+    width: 250px;
+    right: 12px;
+}
+
+.cartao4 .descricao4 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #00060D;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.cartao4 .descricao4 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#400101;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+/* Cartão5 */
+
+.fundo-5{
+    background: url(/src/Imagens/Sasuke-corrompido2.jpg)
+    no-repeat;
+    background-position-y: 20%;
+    background-position-x: 49%;
+    
+    
+}
+
+.cartao5 .informacao5{
+    background-color: #9D62D9;
+    font-size: 7px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cartao5 .informacao5 .vida{
+    background-color:#404040;
+    color: #f1ecff;
+    font-size: 12px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao5 .descricao5 {
+    border-radius: 5px;
+    background-color: #9F4BF2;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -45px;
+    width: 250px;
+    right: 12px;
+}
+
+
+.cartao5 .descricao5 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #C785F2;
+    color: black;
+    border-radius: 2px;
+}
+
+.cartao5 .descricao5 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#EAAEF2;
+    border-radius: 6px;
+    color: black;
+}
+
+/* Cartão6 */
+
+.fundo-6{
+    background: url(/src/Imagens/Kurama1.jpg)
+    no-repeat;
+    background-position: 39%;
+    background-position-y: 38%;
+    
+    
+}
+
+.cartao6 .informacao6{
+    background-color: #F2220F;
+    font-size: 7px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+
+.cartao6 .informacao6 .vida{
+    background-color:#400101;
+    color: #f1ecff;
+    font-size: 12px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao6 .descricao6 {
+    border-radius: 5px;
+    background-color: #F27141;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -70px;
+    width: 250px;
+    right: 12px;
+}
+
+
+.cartao6 .descricao6 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #F2220F;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.cartao6 .descricao6 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#963026;
+    border-radius: 6px;
+    color: #ffffff;
+}
+.container-imagem6 img{
+    width: 260px;
+    height: 310px ;
+    margin-top: -15px;
+}
+  
+  
+    
+
+/* Cartão7 */
+
+
+.fundo-7{
+    background: url(/src/Imagens/Sasuke-chidori.jpg)
+    no-repeat;
+    background-position: 70%;
+    background-position-y: 25%;
+}
+
+.cartao7 .informacao7{
+    background-color: #7863A6;
+    font-size: 7px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cartao7 .informacao7 .vida{
+    background-color:#261D20;
+    color: #f1ecff;
+    font-size: 12px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao7 .descricao7 {
+    border-radius: 5px;
+    background-color: #C0A7D9;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -70px;
+    width: 250px;
+    right: 12px;
+}
+.cartao7 .descricao7 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #3e296b;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+
+.cartao7 .descricao7 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#241447;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+
+.container-imagem7 img{
+    width: 270px;
+    height: 290px ;
+    margin-top: -15px;
+    position: relative;
+    right: 50px;
+}
+  
+/* Cartão8 */
+
+.fundo-8{
+    background: url(/src/Imagens/Kyubi-mode.jpg)
+    no-repeat;
+    background-position: 35%;
+    background-position-y: 45%;
+}
+
+.cartao8 .informacao8{
+    background-color: #561720;
+    font-size: 7px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cartao8 .informacao8 .vida{
+    background-color:#F25922;
+    color: #f1ecff;
+    font-size: 12px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao8 .descricao8 {
+    border-radius: 5px;
+    background-color: #590E0E;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -70px;
+    width: 250px;
+    right: 12px;
+}
+.cartao8 .descricao8 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #5e3885;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+
+.cartao8 .descricao8 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#741111;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+/* Cartão 9 */
+
+
+.fundo-9{
+    background: url(/src/Imagens/Itachi.jpg)
+    no-repeat;
+    background-position: 54%;
+    background-position-y: 0%;
+}
+
+.cartao9 .informacao9{
+    background-color: #3711BF;
+    font-size: 7px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cartao9 .informacao9 .vida{
+    background-color:#8C3545;
+    color: #f1ecff;
+    font-size: 12px;
+    padding: 3px 10px;   
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.cartao9 .descricao9 {
+    border-radius: 5px;
+    background-color: #443737;
+    color: #260101;
+    padding: 10px;
+    position: relative;
+    margin-top: -70px;
+    width: 250px;
+    right: 12px;
+}
+.cartao9 .descricao9 .titulo{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: #050259;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+
+.cartao9 .descricao9 .texto{
+    text-align: justify;
+    font-weight: 700;
+    background-color:#8C75BF;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
