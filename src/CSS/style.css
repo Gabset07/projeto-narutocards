@@ -101,7 +101,7 @@ body{
 }
 
 .fundo-1{
-    background: url(/src/Imagens/Simbolo-do-yondaime.jpg)
+    background: url(src/Imagens/Simbolo-do-yondaime.jpg)
     no-repeat;
     background-position: 48%;
     
@@ -159,7 +159,7 @@ body{
 /* Cartão2 */
 
 .fundo-2{
-    background: url(/src/Imagens/Clan-uchiha-simbolo.png)
+    background: url(src/Imagens/Clan-uchiha-simbolo.png)
     no-repeat;
     background-position: 48%;
     
@@ -217,7 +217,7 @@ body{
 /* Cartão 3 */
 
 .fundo-3{
-    background: url(/src/Imagens/Uzumaki-clan.jpg)
+    background: url(src/Imagens/Uzumaki-clan.jpg)
     no-repeat;
     background-position: 48%;
     
@@ -272,7 +272,7 @@ body{
 /* Cartão4 */
 
 .fundo-4{
-    background: url(/src/Imagens/Assassinato-cla-uchiha.jpg)
+    background: url(src/Imagens/Assassinato-cla-uchiha.jpg)
     no-repeat;
     background-position-y: -15%;
     background-position-x: 25%;
@@ -330,7 +330,7 @@ body{
 /* Cartão5 */
 
 .fundo-5{
-    background: url(/src/Imagens/Sasuke-corrompido2.jpg)
+    background: url(src/Imagens/Sasuke-corrompido2.jpg)
     no-repeat;
     background-position-y: 20%;
     background-position-x: 49%;
@@ -390,7 +390,7 @@ body{
 /* Cartão6 */
 
 .fundo-6{
-    background: url(/src/Imagens/Kurama1.jpg)
+    background: url(src/Imagens/Kurama1.jpg)
     no-repeat;
     background-position: 39%;
     background-position-y: 38%;
@@ -460,7 +460,7 @@ body{
 
 
 .fundo-7{
-    background: url(/src/Imagens/Sasuke-chidori.jpg)
+    background: url(src/Imagens/Sasuke-chidori.jpg)
     no-repeat;
     background-position: 70%;
     background-position-y: 25%;
@@ -526,7 +526,7 @@ body{
 /* Cartão8 */
 
 .fundo-8{
-    background: url(/src/Imagens/Kyubi-mode.jpg)
+    background: url(src/Imagens/Kyubi-mode.jpg)
     no-repeat;
     background-position: 35%;
     background-position-y: 45%;
@@ -584,7 +584,7 @@ body{
 
 
 .fundo-9{
-    background: url(/src/Imagens/Itachi.jpg)
+    background: url(src/Imagens/Itachi.jpg)
     no-repeat;
     background-position: 54%;
     background-position-y: 0%;
