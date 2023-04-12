@@ -5,7 +5,7 @@ Fiz um carrossel de cards com a tematica de Naruto dessa vez.
 
 Implementei algumas coisa mais diferentes dessa vez.
 
-##  Link do projeto online:   https://galux17.github.io/projeto-narutocards/
+
 
 
 ## Projeto
