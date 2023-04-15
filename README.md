@@ -3,7 +3,7 @@
 
 Fiz um carrossel de cards com a tematica de Naruto dessa vez.
 
-Implementei algumas coisa mais diferentes dessa vez.
+Implementei algumas coisas mais diferentes dessa vez,para testar.
 
 
 
